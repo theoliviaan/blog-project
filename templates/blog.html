@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <h3 class="mb-0">{{ blog.title }}</h3>
+                    <div class="mb-1 text-muted">{{ blog.author }}</div>
+                    <div class="mb-1 text-muted">{{ blog.date_posted }}</div>
+                    <p class="card-text mb-auto">{{ blog.post }}</p>
+
+                    <div class="some">
+                       {% if current_user.username == blog.author %}
+                            <a class="" href="/post/edit/{{blog.id}}">Edit</a>
+                            <a class="" href="/delete/{{blog.id}}">Delete</a>
+                        {% endif %}
+                    </div>
+                </div>
+              </div>
+            </div>
+    </div>
+
+
+
+</div>
+{% endblock content %}

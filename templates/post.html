@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="form container wrapper">
+        <h3> Say something </h3>
+        <form action="/post" method="post">
+            <div class="form-group">
+                 <label for="Title"> Title </label>
+                <br>
+                <input type="text" name="Title" id="Title">
+            </div>
+
+            <label for="blogpost"> Say something </label>
+            <br>
+            <textarea name="blogposts" rows="4" cols="20"></textarea>
+
+            <br>
+
+
+            <button type="submit"> Post </button>
+
+        </form>
+        <br>
+    </div>
+
+{% endblock content %}

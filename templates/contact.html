@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form action="/contact" method="">
+        <div class="form-group">
+            <h1> Want to say hi? </h1>
+            <p> We will be excited. Fill out the form below and you'll hear from us soon!.</p>
+        </div>
+
+        <div class="form-group">
+            <label for="firstname">First name</label>
+            <input type="text" name="firstname" class="form-control" required>
+        </div>
+        <br>
+
+         <div class="form-group">
+            <label for="lastname">Last name</label>
+            <input type="text" name="lastname" class="form-control" required>
+        </div>
+        <br>
+
+         <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" class="form-control" required>
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="message"> What can we help you with? </label>
+            <input type="text" name="message" class="form-control" style="width: 80%;height: 100px;">
+            <br>
+            <br>
+        </div>
+
+         <div class="form-group">
+            <input type="submit" value="Submit" class="mybtn">
+        </div>
+
+    </form>
+{% endblock content %}
