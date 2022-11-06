@@ -1,5 +1,5 @@
-# blog-project
-Just a little corner of the internet
+## README TOP
+### Just a little corner of the internet
 
 You can explore the ideas and experiences of other internet users in a secure environment at Everyones Corner, and you can also share your own.
 
@@ -38,12 +38,11 @@ Olivia Akabogu, a Backend Engineering student at AltSchool Africa who is learnin
 
 ### Built With:
 
-![Python][python]
-![Flask][flask]
-![Jinja][jinja]
-![HTML5][html5]
-![CSS3][css3]
-![SQLite][sqlite]
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -59,13 +58,13 @@ Python3: [Get Python](https://www.python.org/downloads/)
 
 ### Installation
 
-<!-- 1. Clone this repo
+1. Clone this repo
    ```sh
-   git clone https://github.com/Ze-Austin/ze-blog.git
+   https://github.com/theoliviaan/blog-project.git
    ```
 2. Activate the virtual environment
    ```sh
-   source env/bin/activate
+   source venv/Scripts/activate
    ```
 3. Install project packages
    ```sh
@@ -74,28 +73,21 @@ Python3: [Get Python](https://www.python.org/downloads/)
 4. Run Flask
    ```sh
    flask run
-   ``` -->
+   ``` 
 5. Open the link generated in the terminal on a browser
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 ---
 
-<!-- License -->
-<!-- ## License
-
-Distributed under the MIT License. See <a href="https://github.com/Ze-Austin/ze-blog/blob/main/LICENSE">LICENSE</a> for more information.
-
-<p align="right"><a href="#readme-top">back to top</a></p> -->
-
----
 
 <!-- Contact -->
 ## Contact
 
-Olivia Akabogu - [@Ze_Austin](https://twitter.com/theoliviaan) - austinwopara@gmail.com
+Olivia Akabogu - [@theoliviaan](https://twitter.com/theoliviaan) - austinwopara@gmail.com
 
-<!-- Project Link: [Ze Blog](https://github.com/Ze-Austin/ze-blog) -->
+LinkedIn - [Olivia Akabogu](https://www.linkedin.com/in/olivia-akabogu/)
+<!-- Project Link: [Everyones Corner](https://github.com/theoliviaan/blog-project) -->
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -136,3 +128,4 @@ This project was made possible by:
 [html5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [css3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [sqlite]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white -->
+
